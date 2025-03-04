@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@theme {  --breakpoint-xs: 20rem;  --breakpoint-2xl: 100rem;  --breakpoint-3xl: 120rem;}
+#root{
+    @apply w-screen h-screen
+}
+.rbc-toolbar{
+    @apply flex justify-between items-center bg-gray-100 p-3 rounded-md shadow 
+}
+.rbc-btn-group button{
+    @apply bg-blue-500 text-white px-3 py-1  rounded hover:bg-blue-600
+}
+.rbc-month-header{
+    @apply flex justify-around
+}
+
+.rbc-month-view{
+    @apply bg-gray-100 p-2 rounded-md shadow-lg border
+}
+
+.rbc-day-bg{
+    @apply border border-gray-300
+}
+
+.rbc-row{
+    @apply grid grid-cols-7 grid-rows-5 border
+}
+.rbc-data-cell{
+    @apply border border-gray-300
+}
+
